@@ -1,0 +1,42 @@
+.employee-form-container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-form-container h2 {
+  margin-bottom: 20px;
+  color: #15bd34;
+}
+
+.employee-form-container form {
+  display: grid;
+  gap: 15px;
+}
+
+.employee-form-container input[type="text"],
+.employee-form-container input[type="password"],
+.employee-form-container input[type="email"],
+.employee-form-container input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-form-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
